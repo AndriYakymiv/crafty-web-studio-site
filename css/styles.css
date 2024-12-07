@@ -25,6 +25,17 @@ body {
     text-decoration: none;
 }
 
+.title {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+
 
 
 /* -------------------- Menu ------------------*/
@@ -86,7 +97,92 @@ body {
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        
+        color: var(--section-second-color);
+
+}
+
+.button-hero {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        background: var(--main-highlight-color);
+}
+
+/* -------------------- Features Section ------------------*/
+
+.features-item-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--title-color-primary);
+}
+
+.features-item-descr {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--title-color-secondary);
+}
+
+/* -------------------- What we do ------------------*/
+
+
+/* -------------------- Our team ------------------*/
+.ourteam {
+    background-color: var(--section-second-color);
+}
+
+.ourteam-name {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-color-main);
+}
+
+.ourteam-position {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-color-additional);
+}
+
+/* -------------------- Footer ------------------*/
+
+.footer {
+    background-color: var(--section-main-color);
+}
+
+.address-contacts {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        font-style: normal;
+        color: #FFFFFF;
 }
 
 
