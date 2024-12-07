@@ -1,0 +1,93 @@
+:root {
+    --title-color-primary: #212121;
+    --title-color-secondary: #757575;
+    --text-color-main: #212121;
+    --text-color-additional: #757575;
+    --main-highlight-color: #2196F3;
+    --main-color: #ffffff;
+    --section-main-color: #2F303A;
+    --section-second-color: #F5F4FA;
+
+
+}
+
+/* Main Styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+/* -------------------- Menu ------------------*/
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.navigation-item {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-color-main);
+}
+
+.navigation-item:hover, .navigation-item:focus {
+    color: var(--main-highlight-color);
+}
+
+.nav-contacts-item {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-color-additional);
+}
+
+.nav-contacts-item:hover,
+.nav-contacts-item:focus {
+    color: var(--main-highlight-color);
+}
+
+/* -------------------- Hero Section ------------------*/
+
+.hero {
+    background-color: #2F303A ;
+}
+
+.hero-title {
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+}
+
+
+
