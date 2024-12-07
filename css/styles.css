@@ -7,6 +7,8 @@
     --main-color: #ffffff;
     --section-main-color: #2F303A;
     --section-second-color: #F5F4FA;
+    --top-line-bg: #ffffff;
+
 
 
 }
@@ -38,7 +40,10 @@ body {
 
 
 
-/* -------------------- Menu ------------------*/
+/* -------------------- Header ------------------*/
+.header {
+    background-color: var(--top-line-bg);
+}
 
 .logo {
     font-family: Raleway;
@@ -50,6 +55,18 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #000000;
+}
+
+.logo-web {
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--main-highlight-color);
 }
 
 .navigation-item {
@@ -171,6 +188,11 @@ body {
 
 .footer {
     background-color: var(--section-main-color);
+}
+
+.footer-logo {
+    color: #FFFFFF;
+
 }
 
 .address-contacts {
