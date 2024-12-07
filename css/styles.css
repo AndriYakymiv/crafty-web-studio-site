@@ -17,6 +17,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    color: var(--title-color-primary);
 }
 
 .list {
@@ -36,6 +37,10 @@ body {
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
+}
+
+.btn {
+    cursor: pointer;
 }
 
 
@@ -192,10 +197,9 @@ body {
 
 .footer-logo {
     color: #FFFFFF;
-
 }
 
-.address-contacts {
+.address-item {
         font-size: 14px;
         font-weight: 400;
         line-height: 1.71;
@@ -204,8 +208,66 @@ body {
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         font-style: normal;
-        color: #FFFFFF;
+        color: #ffffff;
+}
+
+.footer-address {
+    color: #ffffff;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--main-highlight-color);
+}
+
+.footer-email {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email:hover,
+.footer-email:focus {
+    color: var(--main-highlight-color);
+}
+
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--main-highlight-color);
 }
 
 
 
+
+
+
+
+/* ———————————————————————— Portfolio ————————————————————————*/
+/* -------------------- Filter ------------------*/
+
+
+
+/* -------------------- Project ------------------*/
+.project-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 2;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--text-color-main);
+}
+
+.project-type {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--title-color-secondary);
+}
